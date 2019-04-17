@@ -1,0 +1,25 @@
+.sections-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.sections-nav ul {
+	display: flex;
+}
+
+.sections-nav li {
+	margin: 0 10px;
+  font-family: $sans-serif;
+  cursor: pointer;
+}
+
+.sections-nav li:hover:not(:last-child) {
+	background-color: $light-gray;
+}
+
+.sections-nav a {
+    text-transform: uppercase;
+    //underline All link
+    text-decoration: underline; 
+	font-size: 10px;
+}
